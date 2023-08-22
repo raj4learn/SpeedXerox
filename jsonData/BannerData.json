@@ -1,0 +1,39 @@
+{
+    "BannerObjectLists": [
+        {
+            "seqno": 1,
+            "heading": "Photocopying",
+            "heading2": "Speed Xerox",
+            "details": "Empowering your business through high-quality printing solutions. Elevate your brand with us today!",
+            "moreUrl": "https://en.wikipedia.org/wiki/Photocopier"
+        },
+        {
+            "seqno": 2,
+            "heading": "DTP",
+            "heading2": "Speed Xerox",
+            "details": "From business documents to personal projects, our shop provides quality Desktop Publishing (DTP) services. Transform your communication effectively and professionally with our exceptional DTP solutions.",
+            "moreUrl": "https://en.wikipedia.org/wiki/Desktop_publishing"
+        },
+        {
+            "seqno": 3,
+            "heading": "Bookbinding",
+            "heading2": "Speed Xerox",
+            "details": "Preserve your precious books with our expert book binding services. Give your books a new lease of life and a professional look that lasts.",
+            "moreUrl": "https://en.wikipedia.org/wiki/Bookbinding"
+        },
+        {
+            "seqno": 4,
+            "heading": "Brochure Printing",
+            "heading2": "Speed Xerox",
+            "details": "provide both designing and lamination services for visiting cards. We ensure a professional finish that suits your business aesthetics.",
+            "moreUrl": "https://en.wikipedia.org/wiki/Brochure"
+        },
+        {
+            "seqno": 5,
+            "heading": "Visiting Card Designing and Lamination",
+            "heading2": "Speed Xerox",
+            "details": "We deliver high quality, professionally designed visiting cards along with durable lamination to ensure they last.",
+            "moreUrl": "https://en.wikipedia.org/wiki/Business_card"
+        }
+    ]
+}
