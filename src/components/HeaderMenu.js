@@ -92,7 +92,7 @@ class HeaderMenu extends Component {
                 </div>
 
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/#" element={<Home />} />
                     <Route path="/AboutUs" element={<AboutUs />} />
                     <Route path="/Gallery" element={<Gallery />} />
                     <Route path="/Testimonial" element={<Testimonial />} />
