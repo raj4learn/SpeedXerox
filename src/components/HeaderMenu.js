@@ -92,13 +92,13 @@ class HeaderMenu extends Component {
                 </div>
 
                 <Routes>
-                    <Route path="/#" element={<Home />} />
-                    <Route path="/AboutUs" element={<AboutUs />} />
-                    <Route path="/Gallery" element={<Gallery />} />
-                    <Route path="/Testimonial" element={<Testimonial />} />
+                    <Route path="/SpeedXerox" element={<Home />} />
+                    <Route path="/SpeedXerox/AboutUs" element={<AboutUs />} />
+                    <Route path="/SpeedXerox/Gallery" element={<Gallery />} />
+                    <Route path="/SpeedXerox/Testimonial" element={<Testimonial />} />
                     {/* <Route path="/Reviews" element={<Reviews />} /> */}
-                    <Route path="/Services" element={<Services />} />
-                    <Route path="/ContactUs" element={<ContactUs />} />
+                    <Route path="/SpeedXerox/Services" element={<Services />} />
+                    <Route path="/SpeedXerox/ContactUs" element={<ContactUs />} />
                 </Routes>
             </Router>
         )
