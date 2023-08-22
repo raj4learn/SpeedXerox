@@ -1,0 +1,17 @@
+https://www.gstatic.com/feedback/api.js
+
+https://g.page/r/Ca8wVWgrtcnqEAI/review
+
+Business Profile ID "12693544341250740214"
+Place ID : ChIJaQGCn8xhUjoRrzBVaCu1yeo
+
+API Key: AIzaSyBzGijr6Wk6IKiy5G_z-GcpKxJq3rF01Oo
+
+https://maps.googleapis.com/maps/api/place/details/output?place_id=ChIJaQGCn8xhUjoRrzBVaCu1yeo
+name
+rating
+formatted_phone_number
+
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJaQGCn8xhUjoRrzBVaCu1yeo&fields=name%2Crating%2Cformatted_phone_number&key=YOUR_API_KEY
+
+curl -L -X GET 'https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJaQGCn8xhUjoRrzBVaCu1yeo&fields=name%2Crating%2Cformatted_phone_number&key=AIzaSyBzGijr6Wk6IKiy5G_z-GcpKxJq3rF01Oo'
