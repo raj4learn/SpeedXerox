@@ -54,7 +54,7 @@ class HeaderMenu extends Component {
                             <div id='navbarNav' className='collapse navbar-collapse'>
                                 <ul className='navbar-nav ml-auto'>
                                     <li className='nav-item active'>
-                                        <a className='nav-link' href='/SpeedXerox'>Home</a>
+                                        <a className='nav-link' href='/SpeedXerox/'>Home</a>
                                     </li>
 
                                     <li className='nav-item'>
@@ -92,7 +92,7 @@ class HeaderMenu extends Component {
                 </div>
 
                 <Routes>
-                    <Route path="/SpeedXerox" element={<Home />} />
+                    <Route path="/SpeedXerox/" element={<Home />} />
                     <Route path="/SpeedXerox/AboutUs" element={<AboutUs />} />
                     <Route path="/SpeedXerox/Gallery" element={<Gallery />} />
                     <Route path="/SpeedXerox/Testimonial" element={<Testimonial />} />

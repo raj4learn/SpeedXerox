@@ -16,7 +16,7 @@ function Reviews() {
                 console.log("JSON Then2");
                 const jsonOut = myJson;
                 console.log(jsonOut);
-                //setData(jsonOut);
+                setData(jsonOut);
                 return jsonOut;
             }).catch(error => (
                 console.log(error)
@@ -48,7 +48,7 @@ function Reviews() {
                 </ol>
                 <div className="carousel-inner">
                     {
-                        data && data.length > 0 && data.map((mydata, index) => {/* <ReviewsDetails key={index} props={mydata} /> */ })
+                        data && data.length > 0 && data.map((mydata, index) => { <ReviewsDetails key={index} props={mydata} />  })
                     }
                 </div>
                 <a className='carousel-control-prev' href="#carouselExampleIndicators" role="button" data-slide="prev">
