@@ -10,7 +10,7 @@ class SpeedBanner extends Component {
         }
     }
     componentDidMount() {
-        fetch("jsonData/BannerData.json")
+        fetch("./jsonData/BannerData.json")
             .then(res => res.json())
             .then(({ BannerObjectLists }) => this.setState({ BannerObjectLists }))
     }

@@ -3,18 +3,18 @@
         "seq_no": 1,
         "customer_comment": "The one thing I liked was that they provide GST bill for the customers.There is fixed price for the service since they follow billing system.However,low price maybe provided incase of  bulk orders for companies,other persons.Do not get misleaded by the photos uploaded in gmap for the price list if you're looking for printouts of less quantity,say 50-100 copies.They charge ₹2(for first 10copies) and ₹1.5 (for rest of the copies) for single paper.Color printout costs ₹11.Project binding costs ₹250 and rest of the binding costs same like other shops.You can visit this shop since they follow proper procedures starting from printouts to billing.",
         "customer_name": "Shankari.C",
-        "quick_icon": "images/quick-icon.png"
+        "quick_icon": "./images/quick-icon.png"
     },
     {
         "seq_no": 2,
         "customer_comment": "This place is good for all printing needs... Very useful for school and college students for projects and other printouts... Cards, Certificates, Lamination and spiral binding also done here... The only issue is the waiting time... Can't get the job done in a hurry...",
         "customer_name": "Usman Shariff",
-        "quick_icon": "images/quick-icon.png"
+        "quick_icon": "./images/quick-icon.png"
     },
     {
         "seq_no": 3,
         "customer_comment": "Good company for all DTP related services, cheap when you do it in lot. Too crowded at times, but you need to find a better time to work with them. Good workers with professional skills.",
         "customer_name": "Vijayakanthan S",
-        "quick_icon": "images/quick-icon.png"
+        "quick_icon": "./images/quick-icon.png"
     }
 ]

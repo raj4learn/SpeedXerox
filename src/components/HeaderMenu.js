@@ -42,7 +42,7 @@ class HeaderMenu extends Component {
                         <nav className='navbar navbar-expand-lg navbar-light bg-light'>
                             <div className='logo'>
                                 <a href="/">
-                                    <img alt="logo" src="images/logo.png" />
+                                    <img alt="logo" src="./images/logo.png" />
                                 </a>
                             </div>
 
@@ -54,19 +54,19 @@ class HeaderMenu extends Component {
                             <div id='navbarNav' className='collapse navbar-collapse'>
                                 <ul className='navbar-nav ml-auto'>
                                     <li className='nav-item active'>
-                                        <a className='nav-link' href='/SpeedXerox/'>Home</a>
+                                        <a className='nav-link' href='/'>Home</a>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/SpeedXerox/AboutUs'>About Us</a>
+                                        <a className='nav-link' href='/AboutUs'>About Us</a>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/SpeedXerox/Gallery'>Gallery</a>
+                                        <a className='nav-link' href='/Gallery'>Gallery</a>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/SpeedXerox/Testimonial'>Testimonial</a>
+                                        <a className='nav-link' href='/Testimonial'>Testimonial</a>
                                     </li>
 
                                     {/* <li className='nav-item'>
@@ -74,11 +74,11 @@ class HeaderMenu extends Component {
                                     </li> */}
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/SpeedXerox/Services'>Services</a>
+                                        <a className='nav-link' href='/Services'>Services</a>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/SpeedXerox/ContactUs'>Contact Us</a>
+                                        <a className='nav-link' href='/ContactUs'>Contact Us</a>
                                     </li>
                                     <li className='nav-item'>
                                         <a className='nav-link' href={this.state.pathSelf}>
@@ -92,13 +92,13 @@ class HeaderMenu extends Component {
                 </div>
 
                 <Routes>
-                    <Route path="/SpeedXerox/" element={<Home />} />
-                    <Route path="/SpeedXerox/AboutUs" element={<AboutUs />} />
-                    <Route path="/SpeedXerox/Gallery" element={<Gallery />} />
-                    <Route path="/SpeedXerox/Testimonial" element={<Testimonial />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/AboutUs" element={<AboutUs />} />
+                    <Route path="/Gallery" element={<Gallery />} />
+                    <Route path="/Testimonial" element={<Testimonial />} />
                     {/* <Route path="/Reviews" element={<Reviews />} /> */}
-                    <Route path="/SpeedXerox/Services" element={<Services />} />
-                    <Route path="/SpeedXerox/ContactUs" element={<ContactUs />} />
+                    <Route path="/Services" element={<Services />} />
+                    <Route path="/ContactUs" element={<ContactUs />} />
                 </Routes>
             </Router>
         )
