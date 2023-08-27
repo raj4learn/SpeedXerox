@@ -3,6 +3,7 @@ import GlobalFooterAbout from './GlobalFooterAbout'
 import GlobalFooterMenu from './GlobalFooterMenu'
 import GlobalFooterWorkTimes from './GlobalFooterWorkTimes'
 import GlobalFooterAddressDetails from './GlobalFooterAddressDetails'
+import ScrollButton from './ScrollButton';
 
 class Footer extends Component {
 
@@ -13,7 +14,7 @@ class Footer extends Component {
         <div className='container'>
             <div className='row'>
              <GlobalFooterAbout />
-             <GlobalFooterMenu />
+             {/* <GlobalFooterMenu /> */}
              <GlobalFooterWorkTimes />
              <GlobalFooterAddressDetails />
             </div>
