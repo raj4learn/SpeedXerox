@@ -11,7 +11,7 @@ class ImageRotateHalfRightSide extends Component {
     componentDidMount() {
         console.log("Start AboutUs ComponentDidMount");
 
-        fetch("/jsonData/AboutUs.json")
+        fetch("jsonData/AboutUs.json")
             .then(res => res.json())
             .then(({ imageNames }) => this.setState({ imageNames }));
 
