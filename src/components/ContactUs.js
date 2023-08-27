@@ -1,15 +1,14 @@
 import React, { useCallback, useState, useEffect } from 'react'
 import LocationGMap from './LocationGMap'
-import { read, utils, writeFile } from 'xlsx'
+//import { utils, writeFile } from 'xlsx'
 import axios from 'axios';
 
 function ContactUs() {
 
-    const active = "active";
     const [data, setData] = useState([{}]);
 
     console.log('ContactUs: Start render');
-
+ 
     const [count, setCount] = useState(0);
     const [state, setState] = useState({ name: "", email: "", phonenumber: "", message: "" });
 
@@ -32,9 +31,6 @@ function ContactUs() {
 
     const storeValues = useCallback(() => {
         console.log(`Store Details: ${state.name} ${state.email} ${state.phonenumber} ${state.message} ${count} `);
-        //console.log(state);
-        //console.log(JSON.stringify(state, null, 2));
-        //console.log(JSON.parse(JSON.stringify(state, null, 2)));
         const data = {
             Name: state.name,
             Email: state.email,
@@ -54,7 +50,7 @@ function ContactUs() {
 
     }, [state]);
 
-    const storeValuesX = useCallback(() => {
+    /* const storeValuesX = useCallback(() => {
         console.log(`Store Details: ${state.name} ${state.email} ${state.phonenumber} ${state.message} ${count} `);
         console.log(state);
         console.log(JSON.stringify(state, null, 2));
@@ -63,19 +59,16 @@ function ContactUs() {
         const arr = []
         Object.keys(data).forEach(key => arr.push({ name: key, value: data[key] }))
 
-        /* generate worksheet from state */
         const ws = utils.json_to_sheet(arr);
-        /* create workbook and append worksheet */
         const wb = utils.book_new();
         utils.book_append_sheet(wb, ws, "Data");
-        /* export to XLSX */
         writeFile(wb, "SheetJSReactAoO.xlsx");
-    }, [state]);
+    }, [state]); */
 
     const handleSubmit = (e) => {
         console.log("Log:" + count);
         e.preventDefault();
-        if (count == 0) {
+        if (count === 0) {
             //alert(`Form Details: ${state.name} ${state.email} ${state.phonenumber} ${state.message} ${count} `)
             clearContent();
             setCount(1);
@@ -117,17 +110,6 @@ function ContactUs() {
               .catch(error => {
                 return console.log(error);
               });
-        
-            /*axios.post('https://script.google.com/macros/s/AKfycbypbhx8j3IMGMn8tFOZ2OJjLO7sIHWuO4bl_a35cSmFbdcr1PLSZpUqlp2sLAejvKW9/exec', {
-                Name: 'John',
-                PhoneNumber: '987654321',
-                Email: 'jd@gmail.com',
-                Message: "Testing..."
-            })
-            .then((response) => console.log(response))
-                .catch((error) => console.log("Error in Adding data into Excel:" + error + "~" + data));
-                */
-
             console.log("Your Requst is already Submitted.");
 
             clearContent();

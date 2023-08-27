@@ -9,13 +9,13 @@ class GlobalFooterWorkTimes extends Component {
                 </h3>
                 <div className='footer_menu'>
                     <ul>
-                        <li><a>Sun: 10:00 am - 2:00 pm</a></li>
-                        <li><a>Mon: 9:30 am - 9:30 pm</a></li>
-                        <li><a>Tue: 9:30 am - 9:30 pm</a></li>
-                        <li><a>Wed: 9:30 am - 9:30 pm</a></li>
-                        <li><a>Thu: 9:30 am - 9:30 pm</a></li>
-                        <li><a>Fri: 9:30 am - 9:30 pm</a></li>
-                        <li><a>Sat: 9:30 am - 9:30 pm</a></li>
+                        <li><p>Sun: 10:00 am - 2:00 pm</p></li>
+                        <li><p>Mon: 9:30 am - 9:30 pm</p></li>
+                        <li><p>Tue: 9:30 am - 9:30 pm</p></li>
+                        <li><p>Wed: 9:30 am - 9:30 pm</p></li>
+                        <li><p>Thu: 9:30 am - 9:30 pm</p></li>
+                        <li><p>Fri: 9:30 am - 9:30 pm</p></li>
+                        <li><p>Sat: 9:30 am - 9:30 pm</p></li>
                     </ul>
                 </div>
             </div>

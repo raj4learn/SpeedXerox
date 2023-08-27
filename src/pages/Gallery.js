@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import GalleryGetPhotos from './GalleryGetPhotos'
+
 class Gallery extends Component {
     constructor(props) {
         super(props)
@@ -12,7 +13,7 @@ class Gallery extends Component {
     componentDidMount() {
         console.log("Start Gallery ComponentDidMount");
 
-        fetch("jsonData/Gallery.json")
+        fetch("/jsonData/Gallery.json")
             .then(res => res.json())
             .then(({ imageNames }) => this.setState({ imageNames }));
 

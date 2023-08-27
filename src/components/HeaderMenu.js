@@ -9,9 +9,9 @@ import Home from '../components/Home'
 import ContactUs from '../components/ContactUs'
 
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
-    Route
+    Route, Link
 } from 'react-router-dom';
 
 /* const AboutUs = React.lazy(() => import('./pages/AboutUs')); */
@@ -22,7 +22,7 @@ class HeaderMenu extends Component {
         super(props)
         this.state = {
             showNav: true,
-            pathSelf:"#"
+            pathSelf: "#"
         }
         this.toggleNav = this.toggleNav.bind(this);
     }
@@ -54,51 +54,46 @@ class HeaderMenu extends Component {
                             <div id='navbarNav' className='collapse navbar-collapse'>
                                 <ul className='navbar-nav ml-auto'>
                                     <li className='nav-item active'>
-                                        <a className='nav-link' href='/'>Home</a>
+                                        <Link className='nav-link' to='/'>Home</Link>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/AboutUs'>About Us</a>
+                                        <Link className='nav-link' to='/AboutUs'>About Us</Link>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/Gallery'>Gallery</a>
+                                        <Link className='nav-link' to='/Gallery'>Gallery</Link>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/Testimonial'>Testimonial</a>
-                                    </li>
-
-                                    {/* <li className='nav-item'>
-                                        <a className='nav-link' href='/Reviews'>Reviews</a>
-                                    </li> */}
-
-                                    <li className='nav-item'>
-                                        <a className='nav-link' href='/Services'>Services</a>
+                                        <Link className='nav-link' to='/Testimonial'>Testimonial</Link>
                                     </li>
 
                                     <li className='nav-item'>
-                                        <a className='nav-link' href='/ContactUs'>Contact Us</a>
+                                        <Link className='nav-link' to='/Services'>Services</Link>
+                                    </li>
+
+                                    <li className='nav-item'>
+                                        <Link className='nav-link' to='/ContactUs'>Contact Us</Link>
                                     </li>
                                     <li className='nav-item'>
-                                        <a className='nav-link' href={this.state.pathSelf}>
+                                        <Link className='nav-link' to={this.state.pathSelf}>
                                             <i className='fa' aria-hidden={true} aria-controls="navbarNav" aria-expanded={false} aria-label="Toggle navigation"></i>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                 </div>
-
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/AboutUs" element={<AboutUs />} />
-                    <Route path="/Gallery" element={<Gallery />} />
-                    <Route path="/Testimonial" element={<Testimonial />} />
-                    {/* <Route path="/Reviews" element={<Reviews />} /> */}
-                    <Route path="/Services" element={<Services />} />
-                    <Route path="/ContactUs" element={<ContactUs />} />
+                
+                 <Routes>
+                    <Route path='/' exact name='Home' element={<Home />} />
+                    <Route path='/AboutUs' exact name='About Us' element={<AboutUs />} />
+                    <Route path="/Gallery" exact name='Gallery' element={<Gallery />} />
+                    <Route path="/Testimonial" exact name='Testimonial' element={<Testimonial />} />
+                    <Route path="/Services" exact name='Services' element={<Services />} />
+                    <Route path="/ContactUs" exact name='Contact Us' element={<ContactUs />} />
                 </Routes>
             </Router>
         )

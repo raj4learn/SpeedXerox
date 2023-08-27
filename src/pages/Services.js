@@ -20,8 +20,8 @@ class Services extends Component {
                             <div className="col-lg-4 col-sm-12 col-md-4">
                                 <div className="box_main active">
                                     <div className="house_icon">
-                                        <img src="images/Service/speed-xerox-porur-chennai-photocopying-centres-service.png" className="image_1" />
-                                        <img src="images/Service/speed-xerox-porur-chennai-photocopying-centres-service.png" className="image_2" />
+                                        <img src="images/Service/speed-xerox-porur-chennai-photocopying-centres-service.png" alt="SpeedXerox" className="image_1" />
+                                        <img src="images/Service/speed-xerox-porur-chennai-photocopying-centres-service.png" alt="SpeedXerox" className="image_2" />
                                     </div>
                                     <h3 className="decorate_text">Photocopying</h3>
                                     <p className="tation_text">Explain... </p>
@@ -31,8 +31,8 @@ class Services extends Component {
                             <div className="col-lg-4 col-sm-12 col-md-4">
                                 <div className="box_main">
                                     <div className="house_icon">
-                                        <img src="images/Service/dtp.png" className="image_1" />
-                                        <img src="images/Service/dtp.png" className="image_2" />
+                                        <img src="images/Service/dtp.png" alt="SpeedXerox" className="image_1" />
+                                        <img src="images/Service/dtp.png" alt="SpeedXerox" className="image_2" />
                                     </div>
                                     <h3 className="decorate_text">DTP Services</h3>
                                     <p className="tation_text">Explain...</p>
@@ -42,8 +42,8 @@ class Services extends Component {
                             <div className="col-lg-4 col-sm-12 col-md-4">
                                 <div className="box_main">
                                     <div className="house_icon">
-                                        <img src="images/Service/BrochurePrinting.png" className="image_1" />
-                                        <img src="images/Service/BrochurePrinting.png" className="image_2" />
+                                        <img src="images/Service/BrochurePrinting.png" alt="SpeedXerox" className="image_1" />
+                                        <img src="images/Service/BrochurePrinting.png" alt="SpeedXerox" className="image_2" />
                                     </div>
                                     <h3 className="decorate_text">Brochure Printing</h3>
                                     <p className="tation_text">Explain...</p>
