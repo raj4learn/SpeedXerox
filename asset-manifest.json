@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SpeedXerox/static/css/main.b9b001b8.css",
-    "main.js": "/SpeedXerox/static/js/main.8af7562c.js",
+    "main.js": "/SpeedXerox/static/js/main.d35d3b8b.js",
     "static/js/787.de879978.chunk.js": "/SpeedXerox/static/js/787.de879978.chunk.js",
     "index.html": "/SpeedXerox/index.html",
     "main.b9b001b8.css.map": "/SpeedXerox/static/css/main.b9b001b8.css.map",
-    "main.8af7562c.js.map": "/SpeedXerox/static/js/main.8af7562c.js.map",
+    "main.d35d3b8b.js.map": "/SpeedXerox/static/js/main.d35d3b8b.js.map",
     "787.de879978.chunk.js.map": "/SpeedXerox/static/js/787.de879978.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9b001b8.css",
-    "static/js/main.8af7562c.js"
+    "static/js/main.d35d3b8b.js"
   ]
 }

@@ -1,32 +1,32 @@
 {
     "imageNames": [
         {
-            "name": "/SpeedXerox/images/AboutUs/img-1.png",
+            "name": "./images/AboutUs/img-1.png",
             "desc": "",
             "page":"main"
         },
         {
-            "name": "/SpeedXerox/images/AboutUs/img-2.png",
+            "name": "./images/AboutUs/img-2.png",
             "desc": "",
             "page":"main"
         },
         {
-            "name": "/SpeedXerox/images/AboutUs/img-3.png",
+            "name": "./images/AboutUs/img-3.png",
             "desc": "",
             "page":"main"
         },
         {
-            "name": "/SpeedXerox/images/Gallery/img-4.png",
+            "name": "./images/Gallery/img-4.png",
             "desc": "",
             "page":"main"
         },
         {
-            "name": "/SpeedXerox/images/Gallery/img-5.png",
+            "name": "./images/Gallery/img-5.png",
             "desc": "",
             "page":"detail"
         },
         {
-            "name": "/SpeedXerox/images/Gallery/img-6.png",
+            "name": "./images/Gallery/img-6.png",
             "desc": "",
             "page":"detail"
         }
