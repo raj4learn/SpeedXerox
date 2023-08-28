@@ -41,9 +41,9 @@ class HeaderMenu extends Component {
                     <div className='container-fluid'>
                         <nav className='navbar navbar-expand-lg navbar-light bg-light'>
                             <div className='logo'>
-                                <a href="/">
+                                <Link className='nav-link' to='/'>
                                     <img alt="logo" src="./images/logo.png" />
-                                </a>
+                                </Link>
                             </div>
 
                             <button type="button" className='navbar-toggler'>
@@ -86,8 +86,8 @@ class HeaderMenu extends Component {
                         </nav>
                     </div>
                 </div>
-                
-                 <Routes>
+
+                <Routes>
                     <Route index name='Home' element={<Home />} />
                     <Route path='/AboutUs' exact name='About Us' element={<AboutUs />} />
                     <Route path="/Gallery" exact name='Gallery' element={<Gallery />} />
