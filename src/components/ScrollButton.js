@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaArrowCircleUp, FaHandPointUp, FaRegCaretSquareUp} from 'react-icons/fa';
+import {FaRegCaretSquareUp} from 'react-icons/fa';
 import { Button } from './FloatToTop';
   
 const ScrollButton = () =>{

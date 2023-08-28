@@ -7,7 +7,7 @@ export class BannerSlides extends Component {
         console.log('index:' + index)
         console.log('banner_dtls.heading:' + banner_dtls.heading)
         console.log('banner_dtls.details:' + banner_dtls.details)
-        const isActive = (index == '1') ? "carousel-item active" : "carousel-item"
+        const isActive = (index === 1) ? "carousel-item active" : "carousel-item"
         
         return (
             <div className={isActive}>
