@@ -42,7 +42,7 @@ class HeaderMenu extends Component {
                         <nav className='navbar navbar-expand-lg navbar-light bg-light'>
                             <div className='logo'>
                                 <Link className='nav-link' to='/'>
-                                    <img alt="logo" src="./images/logo.png" />
+                                    <img alt="logo" src="images/logo.png" />
                                 </Link>
                             </div>
 
