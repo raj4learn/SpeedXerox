@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-    module: 'SpeedXerox',
+    module: 'speedxerox',
     path: path.reslove(__dirname, 'build'),
     publicPath: '/'
 }
