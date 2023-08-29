@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/speedxerox/static/css/main.b9b001b8.css",
-    "main.js": "/speedxerox/static/js/main.1ee44b04.js",
-    "static/js/787.de879978.chunk.js": "/speedxerox/static/js/787.de879978.chunk.js",
-    "index.html": "/speedxerox/index.html",
-    "main.b9b001b8.css.map": "/speedxerox/static/css/main.b9b001b8.css.map",
-    "main.1ee44b04.js.map": "/speedxerox/static/js/main.1ee44b04.js.map",
-    "787.de879978.chunk.js.map": "/speedxerox/static/js/787.de879978.chunk.js.map"
+    "main.css": "/static/css/main.b9b001b8.css",
+    "main.js": "/static/js/main.865b83e5.js",
+    "static/js/787.de879978.chunk.js": "/static/js/787.de879978.chunk.js",
+    "index.html": "/index.html",
+    "main.b9b001b8.css.map": "/static/css/main.b9b001b8.css.map",
+    "main.865b83e5.js.map": "/static/js/main.865b83e5.js.map",
+    "787.de879978.chunk.js.map": "/static/js/787.de879978.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9b001b8.css",
-    "static/js/main.1ee44b04.js"
+    "static/js/main.865b83e5.js"
   ]
 }
