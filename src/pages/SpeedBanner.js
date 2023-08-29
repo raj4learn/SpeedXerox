@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import BannerSlides from './BannerSlides'
+
 class SpeedBanner extends Component {
 
     constructor(props) {

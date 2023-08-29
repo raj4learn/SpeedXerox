@@ -9,51 +9,55 @@ class GlobalFooterWorkTimes extends Component {
                 </h3>
                 <div className='footer_menu'>
                     <table style={{ color: "#FFF" }}>
-                        <colgroup>
-                            <col />
-                            <col span="2" />
-                            <col span="2" />
-                        </colgroup>
-                        <tr>
-                            <th scope="col">Day</th>
-                            <th scope="col">Open</th>
-                            <th scope="col">Until</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">Sunday</th>
-                            <td>10:00 am</td>
-                            <td>2:00 pm</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Monday</th>
-                            <td>9:30 am</td>
-                            <td>9:30 pm</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Tuesday</th>
-                            <td>9:30 am</td>
-                            <td>9:30 pm</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Wednesday</th>
-                            <td>9:30 am</td>
-                            <td>9:30 pm</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Thursday</th>
-                            <td>9:30 am</td>
-                            <td>9:30 pm</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Friday</th>
-                            <td>9:30 am</td>
-                            <td>9:30 pm</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Saturday</th>
-                            <td>9:30 am</td>
-                            <td>9:30 pm</td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th />
+                                <th span="2" />
+                                <th span="2" />
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col">Day</th>
+                                <th scope="col">Open</th>
+                                <th scope="col">Until</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sunday</th>
+                                <td>10:00 am</td>
+                                <td>2:00 pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Monday</th>
+                                <td>9:30 am</td>
+                                <td>9:30 pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tuesday</th>
+                                <td>9:30 am</td>
+                                <td>9:30 pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wednesday</th>
+                                <td>9:30 am</td>
+                                <td>9:30 pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thursday</th>
+                                <td>9:30 am</td>
+                                <td>9:30 pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Friday</th>
+                                <td>9:30 am</td>
+                                <td>9:30 pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Saturday</th>
+                                <td>9:30 am</td>
+                                <td>9:30 pm</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
