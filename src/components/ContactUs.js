@@ -43,7 +43,7 @@ function ContactUs() {
         console.log("handleSubmit isSubmit:" + isSubmit);
         console.log("handleSubmit formErrors:" + formErrors);
         if (count === 0) {
-            if (isSubmit && Object.keys(formErrors).length == 0) {
+            if (isSubmit && Object.keys(formErrors).length === 0) {
                 // alert(`Form Details: ${state.name} ${state.email} ${state.phonenumber} ${state.message} ${count} `)
                 clearContent();
                 setCount(1);
@@ -110,7 +110,7 @@ function ContactUs() {
     useEffect(() => {
         console.log("useEffect")
         console.log(formErrors);
-        if (Object.keys(formErrors).length == 0 && isSubmit) {
+        if (Object.keys(formErrors).length === 0 && isSubmit) {
             console.log(formData);
             setIsSubmit(true);
         } else {
