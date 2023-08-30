@@ -46,9 +46,21 @@ class HeaderMenu extends Component {
                                 </Link>
                             </div>
 
-                            <button type="button" className='navbar-toggler'>
-                                <span className='navbar-toggler-icon'> </span>
+
+                            <button type="button"
+                                class="navbar-toggle navbar-toggler"
+                                data-toggle="collapse"
+                                data-target=".navbar-collapse">
+
+                                <span class="sr-only"></span>
+                                <span class="navbar-toggler-icon"></span>
                             </button>
+
+                            
+                            {/* <button type="button" className='navbar-toggler'>
+                                <span className='navbar-toggler-icon'> 
+                                </span>
+                            </button> */}
 
                             {/* Navigation bar */}
                             <div id='navbarNav' className='collapse navbar-collapse'>
@@ -83,6 +95,7 @@ class HeaderMenu extends Component {
                                     </li>
                                 </ul>
                             </div>
+
                         </nav>
                     </div>
                 </div>
